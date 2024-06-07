@@ -1,11 +1,1 @@
 {"sections":{"main":{"type":"main-list-collections","settings":{"title":"Collections","sort":"alphabetical","image_ratio":"square","columns_desktop":3,"columns_mobile":"1"}}},"order":["main"]}
-
-import Intercom from '@intercom/messenger-js-sdk';
-
-Intercom({
-  app_id: 'b0qer1x7',
-  user_id: user.id, // IMPORTANT: Replace "user.id" with the variable you use to capture the user's ID
-  name: user.name, // IMPORTANT: Replace "user.name" with the variable you use to capture the user's name
-  email: user.email, // IMPORTANT: Replace "user.email" with the variable you use to capture the user's email
-  created_at: user.createdAt, // IMPORTANT: Replace "user.createdAt" with the variable you use to capture the user's sign-up date in a Unix timestamp (in seconds) e.g. 1704067200
-});
